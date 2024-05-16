@@ -1,0 +1,295 @@
+.projectsCircle {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--purple);
+}
+.projectsStatsCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.projects {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 21px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  color: var(--purple);
+  text-align: left;
+  display: inline-block;
+  min-width: 35px;
+  padding: 0;
+}
+.projectsStatsNumbers {
+  width: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.projectsStatsChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--purple);
+  box-sizing: border-box;
+}
+.projectsContent,
+.projectsStats {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projectsStats {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.projectsContent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) var(--padding-6xs);
+}
+.projectsSeparator {
+  width: 205px;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}
+.deliveringResultsOn,
+.penSpark {
+  margin: 0;
+}
+.deliveringResultsOnContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.projectsContentParent {
+  width: 309px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.circles {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--purple);
+}
+.circlesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.clients {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 21px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  color: var(--purple);
+  text-align: left;
+  display: inline-block;
+  min-width: 30px;
+  padding: 0;
+}
+.clientStatsCircles {
+  width: 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.clientStatsNumbersChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--purple);
+  box-sizing: border-box;
+}
+.clientStats,
+.clientStatsNumbers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientStatsNumbers {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.clientStats {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) var(--padding-6xs);
+}
+.statsSeparator,
+.trustedByLeading {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.statsSeparator {
+  width: 155px;
+  display: inline-block;
+}
+.trustedByLeading {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.clientsContent {
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--purple);
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.activeInstalls {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 102px;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.frameItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--purple);
+  box-sizing: border-box;
+}
+.clientsContentInner,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.clientsContentInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xs) var(--padding-6xs) var(--padding-5xs);
+}
+.div,
+.engagedVisitors {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.div {
+  font-size: var(--font-size-61xl);
+  font-family: var(--font-space-grotesk);
+}
+.engagedVisitors {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+}
+.clientsContent1,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+}
+.clientsContent1 {
+  width: 256px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inter);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--purple);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .div,
+  .projectsSeparator,
+  .statsSeparator {
+    font-size: var(--font-size-21xl);
+    line-height: 72px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div,
+  .projectsSeparator,
+  .statsSeparator {
+    font-size: var(--font-size-5xl);
+    line-height: 48px;
+  }
+}

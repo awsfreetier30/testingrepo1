@@ -1,0 +1,55 @@
+.industryBackgroundsIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.government {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.industryContainers,
+.industryElements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.industryContainers {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-43xl) 0 var(--padding-42xl);
+}
+.industryElements {
+  height: 307px;
+  width: 309px;
+  border-radius: var(--br-5xs);
+  flex-direction: column;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-neutral-neutral);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .government {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .industryContainers {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

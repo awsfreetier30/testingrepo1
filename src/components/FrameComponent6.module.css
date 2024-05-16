@@ -1,0 +1,111 @@
+.screenShot01052024At143 {
+  height: 65px;
+  width: 61px;
+  position: relative;
+  object-fit: cover;
+  min-height: 65px;
+}
+.home,
+.whoWeAre {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 46px;
+}
+.whoWeAre {
+  min-width: 91px;
+  white-space: nowrap;
+}
+.frameFormselect {
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: var(--color-neutral-neutral-darker);
+}
+.careers,
+.cloudKart,
+.resources {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 61px;
+}
+.cloudKart,
+.resources {
+  min-width: 81px;
+}
+.cloudKart {
+  min-width: 82px;
+  white-space: nowrap;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.signuplogin {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color);
+  text-align: left;
+  display: inline-block;
+  min-width: 103px;
+}
+.signuploginWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color);
+  padding: var(--padding-5xs) var(--padding-2xs);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.signuploginWrapper:hover {
+  background-color: var(--color-steelblue-200);
+  border: 1px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+}
+.screenShot01052024At143Parent {
+  align-self: stretch;
+  background-color: var(--color-neutral-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-51xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-neutral-neutral-darker);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .screenShot01052024At143Parent {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navigation {
+    display: none;
+  }
+}

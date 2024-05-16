@@ -1,0 +1,97 @@
+.cloudSolutions,
+.unlockTheFull {
+  position: relative;
+  font-weight: 500;
+}
+.cloudSolutions {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.unlockTheFull {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-family: var(--font-inter);
+}
+.cloudBusinessSolutions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 89px;
+}
+.learnMoreButtons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-23xl);
+  background-color: var(--color-neutral-white);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.learnMoreButtons:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.cloudBusinessSolutionsParent {
+  flex: 1;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-10xl) var(--padding-10xl)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-137xl);
+  background-image: url(/public/frame-74@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-neutral-white);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 800px) {
+  .cloudSolutions {
+    font-size: var(--font-size-19xl);
+  }
+  .cloudBusinessSolutionsParent {
+    gap: var(--gap-59xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cloudSolutions {
+    font-size: var(--font-size-10xl);
+  }
+  .cloudBusinessSolutionsParent {
+    gap: var(--gap-20xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

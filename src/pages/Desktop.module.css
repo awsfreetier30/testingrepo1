@@ -1,0 +1,113 @@
+.whoWeAreContent,
+.whoWeAreContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.whoWeAreContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}
+.whoWeAreContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-53xl) var(--padding-101xl);
+  box-sizing: border-box;
+}
+.testimonials1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-neutral-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 105px;
+}
+.testimonialsHeading {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) 47px;
+  background-color: var(--color-neutral-neutral-darker);
+  flex-direction: row;
+}
+.testimonialsHeading:hover {
+  background-color: var(--color-dimgray-100);
+}
+.testimonialsContent,
+.testimonialsHeading,
+.testimonialsTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialsContent {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-16xl) 0;
+}
+.testimonialsTitle {
+  flex: 1;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 100%;
+}
+.desktop1,
+.testimonials {
+  display: flex;
+  box-sizing: border-box;
+}
+.testimonials {
+  width: 1369px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 45px;
+  max-width: 100%;
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-neutral-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 160.3px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .testimonials,
+  .whoWeAreContentWrapper {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    padding-bottom: var(--padding-10xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .whoWeAreContent {
+    gap: var(--gap-21xl);
+  }
+  .whoWeAreContentWrapper {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whoWeAreContent {
+    gap: var(--gap-xl);
+  }
+  .testimonials {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

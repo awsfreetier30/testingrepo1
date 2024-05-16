@@ -1,0 +1,109 @@
+.whoWeServe {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-neutral-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 118px;
+}
+.whoWeServeWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-21xl-5);
+  background-color: var(--color-neutral-neutral-darker);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.whoWeServeWrapper:hover {
+  background-color: var(--color-dimgray-100);
+}
+.empoweringBusinessesIn {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 110%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.frameParent,
+.industryIcons {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.industryIcons {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 36px 18.7px;
+  min-height: 650px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-neutral-neutral);
+  font-family: var(--font-inter);
+}
+.whoWeServeContent,
+.whoWeServeContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.whoWeServeContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+}
+.whoWeServeContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-53xl) var(--padding-95xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--color);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 1125px) {
+  .whoWeServeContentWrapper {
+    padding-bottom: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .empoweringBusinessesIn {
+    font-size: var(--font-size-21xl);
+    line-height: 53px;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+  .whoWeServeContent {
+    gap: var(--gap-7xl);
+  }
+  .whoWeServeContentWrapper {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    padding-bottom: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empoweringBusinessesIn {
+    font-size: var(--font-size-5xl);
+    line-height: 35px;
+  }
+}

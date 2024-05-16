@@ -1,0 +1,197 @@
+.transformBackgroundIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.transformYourBusiness {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.discoverOurInnovative {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 130%;
+  display: inline-block;
+  max-width: 100%;
+}
+.discoverOurInnovativeSolutiWrapper,
+.transformHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.discoverOurInnovativeSolutiWrapper {
+  width: 714px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-neutral-neutral-light);
+  font-family: var(--font-inter);
+}
+.transformHeading {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.contactUs {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+}
+.actionLabels {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-25xl);
+  background-color: var(--color-neutral-neutral-lightest);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.actionLabels:hover {
+  background-color: var(--color-lightgray-100);
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-neutral-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 89px;
+}
+.actionLabels1 {
+  cursor: pointer;
+  border: 1px solid var(--color-neutral-neutral-lightest);
+  padding: var(--padding-mini) var(--padding-22xl);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.actionLabels1:hover {
+  background-color: var(--color-lightgray-200);
+  border: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.contactLearn {
+  flex-direction: row;
+  gap: var(--gap-3xl);
+}
+.actionButtons,
+.businessTransformation,
+.contactLearn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.actionButtons {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.businessTransformation {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+}
+.transformMessage {
+  width: 890px;
+  flex-direction: row;
+  padding: 0 var(--padding-49xl);
+}
+.transformContent,
+.transformMessage,
+.transformation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.transformContent {
+  flex: 1;
+  border-radius: 0 0 var(--br-61xl) var(--br-61xl);
+  background-color: var(--color-black);
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) var(--padding-85xl) 0;
+  gap: var(--gap-2xl);
+}
+.transformation {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-68xl);
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--color-neutral-white);
+  font-family: var(--font-space-grotesk);
+}
+@media screen and (max-width: 1125px) {
+  .transformMessage {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .transformContent,
+  .transformation {
+    padding-bottom: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+  .transformation {
+    padding-bottom: var(--padding-38xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .transformYourBusiness {
+    font-size: var(--font-size-26xl);
+    line-height: 45px;
+  }
+  .businessTransformation {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .transformYourBusiness {
+    font-size: var(--font-size-15xl);
+    line-height: 34px;
+  }
+  .contactLearn {
+    flex-wrap: wrap;
+  }
+  .transformContent,
+  .transformation {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .transformation {
+    padding-bottom: var(--padding-18xl);
+  }
+}
